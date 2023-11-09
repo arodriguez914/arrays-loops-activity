@@ -2,11 +2,22 @@
  * #1 Hobbies
  * ----------
  * 1. Create an array of group member hobbies
+
+ 
  * 2. Write a loop that logs out each hobby
+
+
  * 3. After the loop, log out the total number of
  *    hobbies
  */
 
+let hobbies = ['gaming', 'travel', 'reading', 'camping'];
+
+for (let i= 0; i < hobbies.length; i++){
+     console.log(hobbies[i]);
+}
+
+console.log('The number of hobbies are', hobbies.length);
 
 // Example output
 // 1. swimming
@@ -24,6 +35,21 @@
  *    is in the array
  * 4. Output the array and number of times teal was found
  */
+
+let colors = ['blue', 'red', 'teal', 'black'];
+let tealCount = 0
+
+  for(let i = 0; i<colors.length; i++ ){
+     if(colors[i] == 'teal'){
+        tealCount++;    
+     }
+   }
+
+   for (let i= 0; i < colors.length; i++){
+     console.log(colors[i]);
+   }
+
+console.log('The number of times teal is present:', tealCount);
 
 
 // Example output
